@@ -7,5 +7,5 @@ class CountryPickerGetx extends GetxController{
   setCountry({required String cCode,required String pPhone}){
     countryCode.value=cCode;
     phoneCode.value=pPhone; 
-  }
+  } 
 }
